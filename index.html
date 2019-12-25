@@ -1,0 +1,389 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <script language='javascript'>
+    $(document).ready(function(){ $('.ui.accordion').accordion(); });
+
+    function getFeedUrl () {
+      const el = document.createElement('textarea');
+      el.value = 'http://dkmullen.com/journal/feed/podcast/';
+      document.body.appendChild(el);
+      let x = el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+      var el2 = document.getElementById('copied');
+      if(el2) {
+        el2.className += el2.className ? ' copied-show-hide' : 'copied-show-hide';
+        setTimeout(() => {
+          el2.classList.remove('copied-show-hide')
+        }, 1000)
+      }
+    } 
+  </script>
+  <title>Teaching</title>
+  <meta name="description" content="Dennis Mullen Teaching">
+  <meta name="author" content="DKM">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style12-25.css">
+</head>
+<body>
+
+  <div id="page-wrapper">
+    <div id="logo-row">
+      <img src="assets/teaching_logo-300px.jpg" alt="logo">
+      <div class="aboutme">
+        For 30 years, I was a minister in Kingston, Tennessee, USA. These are some of my sermons. 
+        Subscribe on <a href="https://podcasts.apple.com/us/podcast/teaching-dennis-mullen/id1480164875" target="_blank">
+        Apple</a>, Google, or Pocket Casts, or <span class="clickable" onclick="getFeedUrl()">copy the feed address</span>.
+      </div>
+    </div>
+    <div id="copied">Copied</div>
+    <div class="spacer"></div>
+    <div class="ui styled fluid accordion">
+        <div class="active title">
+            <i class="dropdown icon"></i>
+            <div class="series-header">
+              <div class="series-title">Christmas</div>
+              <p class="series-description">Some Christmas thoughts from 2016 (and one from 2015).</p>
+            </div>
+          </div>
+          <div class="active content">
+            <div class="series-item_wrapper">
+              <div class="series-item">
+                <div class="series-item_title">1. Christmas is not...</div>
+                <div class="series-item_row">
+                  <div class="series-item_description">
+                      Let's talk about some of the things Christmas has become.
+                      <div class="series-item_date">Original date: December 4, 2016</div> 
+                    </div>
+                  <div class="series-item_spacer"></div>
+                  <div class="series-item_icon">
+                      <a href="audio/christmas-2016/cmas2016_1.mp3">
+                        <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                </div>
+              </div>
+              <div class="series-item">
+                <div class="series-item_title">2. A bigger giant</div>
+                <div class="series-item_row">
+                  <div class="series-item_description">
+                      There's the way of power and then there's the way of Christmas
+                      <div class="series-item_date">Original date: December 18, 2016</div> 
+                    </div>
+                  <div class="series-item_spacer"></div>
+                  <div class="series-item_icon">
+                      <a href="audio/christmas-2016/cmas2016_3.mp3">
+                        <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                </div>
+              </div>
+              <div class="series-item">
+                <div class="series-item_title">3. Through ordinary means</div>
+                <div class="series-item_row">
+                  <div class="series-item_description">
+                      Christmas shows us that divine power can be hidden in the ordinary.
+                      <div class="series-item_date">Original date: December 24, 2016</div> 
+                    </div>
+                  <div class="series-item_spacer"></div>
+                  <div class="series-item_icon">
+                      <a href="audio/christmas-2016/cmas2016_4.mp3">
+                        <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                </div>
+              </div>
+              <div class="series-item">
+                <div class="series-item_title">4. Light has dawned</div>
+                <div class="series-item_row">
+                  <div class="series-item_description">
+                      Light shining through darkness is the most powerful truth of Christmas.
+                      <div class="series-item_date">Original date: December 25, 2016</div> 
+                    </div>
+                  <div class="series-item_spacer"></div>
+                  <div class="series-item_icon">
+                      <a href="audio/christmas-2016/cmas2016_5.mp3">
+                        <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                </div>
+              </div>
+              <div class="series-item">
+                <div class="series-item_title">5. When the party's over</div>
+                <div class="series-item_row">
+                  <div class="series-item_description">
+                      What happens to faith and faithfulness when the fun ends?
+                      <div class="series-item_date">Original date: December 27, 2015</div> 
+                    </div>
+                  <div class="series-item_spacer"></div>
+                  <div class="series-item_icon">
+                      <a href="audio/christmas-2016/5_the_partys_over.mp3">
+                        <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <div class="series-header">
+            <div class="series-title">Best Thoughts</div>
+            <p class="series-description">This is the final series I preached, from April and May of 2018.</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="series-item_wrapper">
+            <div class="series-item">
+              <div class="series-item_title">1. Take Responsibility</div>
+              <div class="series-item_row">
+                <div class="series-item_description">
+                    The solution to many problems begins when someone takes responsibility. 
+                    <div class="series-item_date">Original date: April 8, 2018</div> 
+                  </div>
+                <div class="series-item_spacer"></div>
+                <div class="series-item_icon">
+                    <a href="best_thoughts/1_take_responsibility.mp3">
+                      <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="series-item">
+              <div class="series-item_title">2. Forgive</div>
+              <div class="series-item_row">
+                <div class="series-item_description">
+                    To forgive someone is to set yourself free. Who wouldn’t want that?
+                    <div class="series-item_date">Original date: April 15, 2018 </div>
+                  </div>
+                <div class="series-item_spacer"></div>
+                <div class="series-item_icon">
+                    <a href="best_thoughts/2_forgive.mp3" >
+                      <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="series-item">
+              <div class="series-item_title">3. Ego is the Enemy</div>
+              <div class="series-item_row">
+                <div class="series-item_description">
+                    Ego stands in the way of every good thing. How can you learn what you think you already know?
+                    <div class="series-item_date">Original date: April 22, 2018 </div>
+                  </div>
+                <div class="series-item_spacer"></div>
+                <div class="series-item_icon">
+                    <a href="best_thoughts/3_ego_is_the_enemy.mp3" >
+                      <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          <div class="series-item">
+            <div class="series-item_title">4. Be Careful What You Say</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                  Unhealthy organizations and people confuse talk with action.
+                  <div class="series-item_date">Original date: April 29, 2018 </div>
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="best_thoughts/4_watch_what_you_say.mp3" >
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">5. Control</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                Our unprecedented ability to focus on thing far 
+                outside our control is deadly. There's a better way.
+                <div class="series-item_date">Original date: May 6, 2018 </div>
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="best_thoughts/5_control.mp3" >
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">6. The End is Near</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                We tend to make life better when we realize that it is temporary.
+                <div class="series-item_date">Original date: May 13, 2018 </div>
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="best_thoughts/6_the_end.mp3" >
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">7. Thank You</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                Gratitude is almost always in season. And I have a lot to say 'thank you' for.
+                <div class="series-item_date">Original date: May 20, 2018 </div>
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="best_thoughts/7-1-thank_you_message_only.mp3" >
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <i class="dropdown icon"></i>
+        <div class="series-header">
+          <div class="series-title">Moral Excellence</div>
+          <p class="series-description">A series from October 2017 on lost virtues.</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="series-item_wrapper">
+          <div class="series-item">
+            <div class="series-item_title">1. Sin</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                Sin is one thing we have in common. Understanding it can unite us. 
+                  <div class="series-item_date">Original date: October 1, 2017</div> 
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="moral_excellence/1_sin.mp3">
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">2. Goodness</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                At our best, we don't want only to be admired. We want to be admirable.
+                <div class="series-item_date">Original date: October 8, 2017</div> 
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="moral_excellence/2_goodness.mp3">
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">3. Temperance</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                Temperance is about the right thing in the right amount at the right time.
+                <div class="series-item_date">Original date: October 15, 2017</div> 
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="moral_excellence/3_temperance.mp3">
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">4. Humility</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                A healthy suspicion of our own motives and actions is the beginning of healthy humility.
+                <div class="series-item_date">Original date: October 22, 2017</div> 
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="moral_excellence/4_humility.mp3">
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">5. Faithfulness</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                Faithfulness is to keep doing the right things even after the mood has passed. 
+                <div class="series-item_date">Original date: October 29, 2017</div> 
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="moral_excellence/5_faithfulness.mp3">
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">6. Repentance</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                Repentance changes how we treat people, how we make decisions, how we live.
+                <div class="series-item_date">Original date: November 5, 2017</div> 
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="moral_excellence/6_repentance.mp3">
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">7. Small Things</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                Don't wait for the heroic moment to live well. Do it now, in the small things.
+                <div class="series-item_date">Original date: November 12, 2017</div> 
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="moral_excellence/7_small-things.mp3">
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="series-item">
+            <div class="series-item_title">8. Gratitude</div>
+            <div class="series-item_row">
+              <div class="series-item_description">
+                How can we be anything other than selfish if we don't occasionally work on gratitude?
+                <div class="series-item_date">Original date: November 19, 2017</div> 
+                </div>
+              <div class="series-item_spacer"></div>
+              <div class="series-item_icon">
+                  <a href="moral_excellence/8_gratitude.mp3">
+                    <i class="fa fa-play-circle icon-button" aria-hidden="true"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+  <!-- <script src="js/scripts.js"></script> -->
+  <script src="https://use.fontawesome.com/b47deb2d05.js"></script>
+</body>
+</html>
